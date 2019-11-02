@@ -96,7 +96,7 @@ while True:
 
 			
 			#makeSound(dX)
-			print(dX)
+			#print("X-Value:",  dX, "Y-Value:", dY)
 			if np.abs(dX) > 20:
 				dirX = "East" if np.sign(dX) == 1 else "West"
 
